@@ -1,0 +1,37 @@
+---
+title: "--"
+author: ".."
+date: "February 13, 2017"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+Hola Gerson:
+
+Los datos de los precios de varios productos, que contienen los de la canasta básica, los obtuve del archivo “Quién es Quién en los precios” que se encuentra en el portal de [datos.gob](https://datos.gob.mx/busca/dataset/quien-es-quien-en-los-precios)
+
+En esta app se encuentra la visualización que [propongo](https://foufoo.shinyapps.io/datalab2/)
+
+En cuanto a la visualización primero definiría los productos que integran _la canasta básica _ (o los productos que interese estudiar para trabajar con un subconjunto de los datos que se encuentran en el archivo), como los datos son de tipo panel me parece adecuado dos tipos de visualizaciones:
+La primera consiste en fijar un instante y comparar el valor de la canasta en un estado con respecto a los demás (estados). Para ello propondría dos posibilidades:
+
+1. Utilizar un mapa de color de los estados y calcular el costo de la canasta en cada uno de ellos. Esta opción es la segunda en la app que les envió.
+  * Utilizar puntos o una imagen de la canasta donde el tamaño del icono que señala al estado ( en el mapa) refleja el precio de la canasta (en este punto sugeriría una inversión con respecto al precio así los estados con mayor precio en la canasta se verían menos). Este caso es la primer imagen de la app.
+  * Una combinación de ambas, esta propuesta es la tercera imagen en la app.
+2. El segundo tipo de visualización consiste en mostrar la serie de tiempo donde la variable es el costo total por estados. En ella se elijen un conjunto de estados a compara y se muestra la evolución del costo a través del tiempo. Esta propuesta se encuentra en la cuarta imagen de la app.
+
+
+En cuanto al trabajo previo que tengo con visualizaciones les comparto las siguientes url:
+
+En esta les pido, [por favor](https://raw.githubusercontent.com/fou-foo/opi_test/master/exa_opi.html), descargar el archivo .html y visualizarlo localmente. El archivo es un análisis con datos de ecoBici y las graficas son buenas.
+
+En cuanto al proyecto de redes que les comente aqui tengo un [borrador](https://foufoo.shinyapps.io/appgrafo/) de la visualización 
+
+
+Aqui tengo un [correlograma](https://github.com/fou-foo/R-Coursera/blob/master/Regression_models/cars.md)
+
+Aqui un scatterplot [interactivo](https://foufoo.shinyapps.io/app1/)
+
+Y finalmente una app no tan vistosa pero que he utilizado en el trabajo [actual](https://foufoo.shinyapps.io/dev1/)
+
